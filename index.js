@@ -33,4 +33,4 @@ client.on('message', message => {
 
 
 
-client.login(bot_secret_token)
+client.login(process.env.TOKEN)
