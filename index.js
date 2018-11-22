@@ -28,6 +28,10 @@ client.on('message', message => {
       message.channel.send(subembed)
 
     }
+    if (message.content === 'lol') {
+      message.channel.send("haha")
+      message.channel.send("lol..... lol")
+    }
 
 })
 
